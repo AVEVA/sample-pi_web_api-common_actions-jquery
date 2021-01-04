@@ -55,7 +55,7 @@ jobs:
           fileLibrary: $(CredFileLibrary)
           filePath: $(projPath)
 
-      - template: '/piwebapi_samples/CommonAPIActions/JQuery/run-tests.yml@templates'
+      - template: '/run-tests.yml'
         parameters:
           projectPath: $(Build.SourcesDirectory)$(testPath)
 

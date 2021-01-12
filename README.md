@@ -2,7 +2,7 @@
 
 **Version:** 1.0.16
 
-[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/PI-System/PIWebAPI_JQuery?branchName=master)](https://dev.azure.com/osieng/engineering/_build?definitionId=962&branchName=master)
+[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/PI-System/osisoft.sample-pi_web_api-common_actions-jquery?repoName=osisoft%2Fsample-pi_web_api-common_actions-jquery&branchName=master)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2662&repoName=osisoft%2Fsample-pi_web_api-common_actions-jquery&branchName=master)
 
 The sample code in this folder demonstrates how to utilize the PI Web API in jQuery. You must have already [downloaded jQuery](https://jquery.com/download/) in order to run this sample application.
 

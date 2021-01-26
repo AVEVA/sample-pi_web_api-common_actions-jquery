@@ -1,5 +1,9 @@
 # Version History
 
+## 1.0.17 / 2021-01-26
+
+- Updated dependencies
+
 ## 1.0.16 / 2020-09-25
 
 - Fix azure pipelines

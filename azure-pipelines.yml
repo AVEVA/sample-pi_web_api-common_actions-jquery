@@ -26,8 +26,6 @@ resources:
 
 variables:
   - template: '/miscellaneous/build_templates/variables.yml@templates'
-  - name: testPath
-    value: '/KarmaUnitTests/'
   - name: CredFile
     value: test-config.js
   - name: CredFileLibrary
@@ -48,6 +46,6 @@ jobs:
 
       - template: '/run-tests.yml'
         parameters:
-          projectPath: $(Build.SourcesDirectory)$(testPath)
+          projectPath: $(Build.SourcesDirectory)/KarmaUnitTests/
 
       - template: '/miscellaneous/build_templates/analysis.yml@templates'

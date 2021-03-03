@@ -1,8 +1,8 @@
 # PI Web API JQuery Sample
 
-**Version:** 1.0.17
+**Version:** 1.0.18
 
-[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/PI-System/osisoft.sample-pi_web_api-common_actions-jquery?repoName=osisoft%2Fsample-pi_web_api-common_actions-jquery&branchName=master)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2662&repoName=osisoft%2Fsample-pi_web_api-common_actions-jquery&branchName=master)
+[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/PI-System/osisoft.sample-pi_web_api-common_actions-jquery?repoName=osisoft%2Fsample-pi_web_api-common_actions-jquery&branchName=main)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2662&repoName=osisoft%2Fsample-pi_web_api-common_actions-jquery&branchName=main)
 
 The sample code in this folder demonstrates how to utilize the PI Web API in jQuery. You must have already [downloaded jQuery](https://jquery.com/download/) in order to run this sample application.
 
@@ -121,8 +121,8 @@ The functionality included with this sample includes(recommended order of execut
 
 ---
 
-For the main PI Web API Samples landing page on master [ReadMe](https://github.com/osisoft/OSI-Samples-PI-System/tree/master/docs/PI-Web-API-Docs)
+For the main PI Web API Samples landing page [ReadMe](https://github.com/osisoft/OSI-Samples-PI-System/tree/main/docs/PI-Web-API-Docs)
 
-For the main PI System Samples landing page on master [ReadMe](https://github.com/osisoft/OSI-Samples-PI-System)
+For the main PI System Samples landing page [ReadMe](https://github.com/osisoft/OSI-Samples-PI-System)
 
-For the main OSIsoft Samples landing page on master [ReadMe](https://github.com/osisoft/OSI-Samples)
+For the main OSIsoft Samples landing page [ReadMe](https://github.com/osisoft/OSI-Samples)

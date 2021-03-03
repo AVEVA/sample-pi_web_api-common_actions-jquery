@@ -1,5 +1,9 @@
 # Version History
 
+## 1.0.18 / 2021-03-03
+
+- Updated pipeline to reference main branch
+
 ## 1.0.17 / 2021-01-26
 
 - Updated dependencies

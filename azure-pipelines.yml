@@ -2,40 +2,30 @@ trigger:
   batch: true
   branches:
     include:
-      - master
-  paths:
-    include:
-      - '/'
+      - main
 
 pr:
   branches:
     include:
-      - master
-  paths:
-    include:
-      - '/'
+      - main
 
 schedules:
   - cron: '0 0 * * 0'
     displayName: Weekly build
     branches:
       include:
-        - master
+        - main
     always: true
 
 resources:
   repositories:
-  - repository: templates
-    type: github
-    name: osisoft/OSI-Samples
-    endpoint: osisoft/OSI-Samples
+    - repository: templates
+      type: github
+      name: osisoft/OSI-Samples
+      endpoint: osisoft/OSI-Samples
 
 variables:
   - template: '/miscellaneous/build_templates/variables.yml@templates'
-  - name: projPath
-    value: '/'
-  - name: testPath
-    value: '/KarmaUnitTests/'
   - name: CredFile
     value: test-config.js
   - name: CredFileLibrary
@@ -53,13 +43,9 @@ jobs:
         parameters:
           fileOriginal: $(CredFile)
           fileLibrary: $(CredFileLibrary)
-          filePath: $(projPath)
 
       - template: '/run-tests.yml'
         parameters:
-          projectPath: $(Build.SourcesDirectory)$(testPath)
+          projectPath: $(Build.SourcesDirectory)/KarmaUnitTests/
 
-  - template: '/miscellaneous/build_templates/analysis.yml@templates'
-    parameters:
-      language: javascript
-      web: true
+      - template: '/miscellaneous/build_templates/analysis.yml@templates'

@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 95.0.4638.54 (Windows 10)" package="" timestamp="2021-10-25T21:18:23" id="0" hostname="CBARDINI5540" tests="16" errors="0" failures="15" time="0.078">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"/>
+  </properties>
+  <testcase name="Create test environment createTestData" time="0.032" classname="Chrome_95_0_4638_54_(Windows_10).Create test environment"/>
+  <testcase name="Create test environment createDatabase" time="0.004" classname="Chrome_95_0_4638_54_(Windows_10).Create test environment">
+    <failure type="">Error: Expected 0 to equal 201.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:44:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Create test environment createCategory" time="0.003" classname="Chrome_95_0_4638_54_(Windows_10).Create test environment">
+    <failure type="">Error: Expected 0 to equal 201.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:57:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Create test environment createTemplate" time="0.002" classname="Chrome_95_0_4638_54_(Windows_10).Create test environment">
+    <failure type="">Error: Expected 0 to equal 200.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:71:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Create test environment createElement" time="0.002" classname="Chrome_95_0_4638_54_(Windows_10).Create test environment">
+    <failure type="">Error: Expected 0 to equal 201.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:84:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Read/write tests doBatchCall" time="0.005" classname="Chrome_95_0_4638_54_(Windows_10).Read/write tests">
+    <failure type="">Error: Expected 0 to equal 207.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:99:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Read/write tests readAttributeSelectedFields" time="0.002" classname="Chrome_95_0_4638_54_(Windows_10).Read/write tests">
+    <failure type="">Error: Expected 0 to equal 200.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:112:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Read/write tests readAttributeSnapshot" time="0.003" classname="Chrome_95_0_4638_54_(Windows_10).Read/write tests">
+    <failure type="">Error: Expected 0 to equal 200.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:125:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Read/write tests readAttributeStream" time="0.005" classname="Chrome_95_0_4638_54_(Windows_10).Read/write tests">
+    <failure type="">Error: Expected 0 to equal 200.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:138:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Read/write tests writeDataSet" time="0.004" classname="Chrome_95_0_4638_54_(Windows_10).Read/write tests">
+    <failure type="">Error: Expected false to equal true.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:151:54)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Read/write tests writeSingleValue" time="0.003" classname="Chrome_95_0_4638_54_(Windows_10).Read/write tests">
+    <failure type="">Error: Expected 0 to equal 204.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:164:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Read/write tests updateAttributeValue" time="0.003" classname="Chrome_95_0_4638_54_(Windows_10).Read/write tests">
+    <failure type="">Error: Expected 0 to equal 204.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:177:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Delete test environment deleteElement" time="0.003" classname="Chrome_95_0_4638_54_(Windows_10).Delete test environment">
+    <failure type="">Error: Expected 0 to equal 204.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:192:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Delete test environment deleteTemplate" time="0.003" classname="Chrome_95_0_4638_54_(Windows_10).Delete test environment">
+    <failure type="">Error: Expected 0 to equal 200.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:205:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Delete test environment deleteCategory" time="0.002" classname="Chrome_95_0_4638_54_(Windows_10).Delete test environment">
+    <failure type="">Error: Expected 0 to equal 200.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:218:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Delete test environment deleteDatabase" time="0.002" classname="Chrome_95_0_4638_54_(Windows_10).Delete test environment">
+    <failure type="">Error: Expected 0 to equal 200.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (C:/Projects/samples/sample-pi_web_api-common_actions-jquery/JasmineUnitTests/spec/sampleUnitTests.js:231:24)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: deleteDatabase'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: createDatabase'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: createCategory'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: createTemplate'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: createElement'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: doBatchCall'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: readAttributeSelectedFields'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: readAttributeSnapshot'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: readAttributeStream'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: writeDataSet'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: writeSingleValue'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: updateAttributeValue'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: deleteElement'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: deleteTemplate'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: deleteCategory'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+,Chrome 95.0.4638.54 (Windows 10) LOG: 'Function: deleteDatabase'
+,Chrome 95.0.4638.54 (Windows 10) LOG: undefined
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

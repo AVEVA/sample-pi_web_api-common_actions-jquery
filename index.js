@@ -1,12 +1,13 @@
 /**
  * Set defaults on document ready
  */
-$(document).ready(function() {
-  $('#txtPIWebAPIUrl').val(testConfig.piWebApiUrl);
-  $('#txtAssetServer').val(testConfig.assetServer);
-  $('#txtPIServer').val(testConfig.piServer);
+$(document).ready(function () {
+  var appsettings;
+  //$('#txtPIWebAPIUrl').val(appsettings.piWebApiUrl);
+  //$('#txtAssetServer').val(appsettings.assetServer);
+  //$('#txtPIServer').val(appsettings.piServer);
 
-  $('#txtPIWebAPIUser').val(testConfig.userName);
+  //$('#txtPIWebAPIUser').val(appsettings.userName);
   enableSubmit();
 });
 

@@ -1,13 +1,7 @@
 /**
- * Set defaults on document ready
+ * Enables submit on ready
  */
 $(document).ready(function () {
-  var appsettings;
-  //$('#txtPIWebAPIUrl').val(appsettings.piWebApiUrl);
-  //$('#txtAssetServer').val(appsettings.assetServer);
-  //$('#txtPIServer').val(appsettings.piServer);
-
-  //$('#txtPIWebAPIUser').val(appsettings.userName);
   enableSubmit();
 });
 

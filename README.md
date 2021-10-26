@@ -1,6 +1,6 @@
 # PI Web API JQuery Sample
 
-**Version:** 1.0.22
+**Version:** 1.0.23
 
 [![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/PI-System/osisoft.sample-pi_web_api-common_actions-jquery?repoName=osisoft%2Fsample-pi_web_api-common_actions-jquery&branchName=main)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2662&repoName=osisoft%2Fsample-pi_web_api-common_actions-jquery&branchName=main)
 

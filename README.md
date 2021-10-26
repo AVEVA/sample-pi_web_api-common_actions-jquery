@@ -30,25 +30,25 @@ To run the sample tests:
 
 - You must have [Karma](https://karma-runner.github.io/latest/index.html) installed in order to run automated tests.
   - You can install this in \JQuery\KarmaUnitTests with `npm install karma –-save-dev`
-- The sample test is configured using the file [test-config.placeholder.js](test-config.placeholder.js). Before editing, rename this file to `test-config.js`. This repository's `.gitignore` rules should prevent the file from ever being checked in to any fork or branch, to ensure credentials are not compromised.
-- Open the test config file `test-config.js`
+- The sample test is configured using the file [appsettings.placeholder.json](KarmaUnitTests\appsettings.placeholder.json). Before editing, rename this file to `appsettings.json`. This repository's `.gitignore` rules should prevent the file from ever being checked in to any fork or branch, to ensure credentials are not compromised.
+- Open the test config file `appsettings.json`
 - Replace the values with your system configuration.
 
 For example:
 
-```javascript
-var testConfig = {
-  piWebApiUrl: 'https://mydomain.com/piwebapi',
-  assetServer: 'AssetServerName',
-  piServer: 'PIServerName',
-  userName: 'MyUserName', // Or, 'domain\\userName'
-  userPassword: 'MyUserPassword',
-  authType: 'Basic', // Basic or Kerberos
-  DEFAULT_TIMEOUT_INTERVAL: null,
-};
+```json
+{
+  "PIWebAPI": "PLACEHOLDER_REPLACE_WITH_PI_WEB_API_URL",
+  "AFServerName": "PLACEHOLDER_REPLACE_WITH_AF_SERVER_NAME",
+  "DataArchiveName": "PLACEHOLDER_REPLACE_WITH_DATA_ARCHIVE_NAME",
+  "Username": "PLACEHOLDER_REPLACE_WITH_USERNAME",
+  "Password": "PLACEHOLDER_REPLACE_WITH_PASSWORD",
+  "AuthType": "basic",
+  "DEFAULT_TIMEOUT_INTERVAL": null
+}
 ```
 
-- If you run into any issues with the Jasmine tests timing out, use the `DEFAULT_TIMEOUT_INTERVAL` setting in `test-config.js` and set it to a higher value. For example:
+- If you run into any issues with the Jasmine tests timing out, use the `DEFAULT_TIMEOUT_INTERVAL` setting in `appsettings.json` and set it to a higher value. For example:
 
 ```javascript
 DEFAULT_TIMEOUT_INTERVAL: 10000;

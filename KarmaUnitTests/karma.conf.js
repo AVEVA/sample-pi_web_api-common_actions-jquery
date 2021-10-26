@@ -1,9 +1,9 @@
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
     client: {
       jasmine: {
-        random: false
-      }
+        random: false,
+      },
     },
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
@@ -15,10 +15,16 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      '../test-config.js',
       'node_modules/jquery/dist/jquery.min.js',
+      'node_modules/jasmine-jquery/lib/jasmine-jquery.js',
       '../samplePIWebAPI.js',
-      '../JasmineUnitTests/spec/sampleUnitTests.js'
+      '../JasmineUnitTests/spec/sampleUnitTests.js',
+      {
+        pattern: '*.json',
+        watched: true,
+        served: true,
+        included: false,
+      },
     ],
 
     // list of files / patterns to exclude
@@ -39,7 +45,7 @@ module.exports = function(config) {
       useBrowserName: true,
       nameFormatter: undefined,
       classNameFormatter: undefined,
-      properties: {}
+      properties: {},
     },
 
     // web server port
@@ -65,6 +71,6 @@ module.exports = function(config) {
 
     // Concurrency level
     // how many browser should be started simultaneous
-    concurrency: Infinity
+    concurrency: Infinity,
   });
 };

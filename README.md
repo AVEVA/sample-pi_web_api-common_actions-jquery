@@ -1,6 +1,6 @@
 # PI Web API JQuery Sample
 
-**Version:** 1.0.26
+**Version:** 1.0.27
 
 [![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/PI-System/osisoft.sample-pi_web_api-common_actions-jquery?repoName=osisoft%2Fsample-pi_web_api-common_actions-jquery&branchName=main)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2662&repoName=osisoft%2Fsample-pi_web_api-common_actions-jquery&branchName=main)
 
@@ -121,8 +121,6 @@ The functionality included with this sample includes(recommended order of execut
 
 ---
 
-For the main PI Web API Samples landing page [ReadMe](https://github.com/osisoft/OSI-Samples-PI-System/tree/main/docs/PI-Web-API-Docs)
-
-For the main PI System Samples landing page [ReadMe](https://github.com/osisoft/OSI-Samples-PI-System)
-
-For the main OSIsoft Samples landing page [ReadMe](https://github.com/osisoft/OSI-Samples)
+For the main PI Web API Samples landing page [ReadMe](https://github.com/osisoft/OSI-Samples-PI-System/tree/main/docs/PI-Web-API-Docs)  
+For the main PI System Samples landing page [ReadMe](https://github.com/osisoft/OSI-Samples-PI-System)  
+For the main OSIsoft Samples landing page [ReadMe](https://github.com/osisoft/OSI-Samples)   

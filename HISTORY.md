@@ -1,5 +1,10 @@
 # Version History
 
+## 1.0.28 / 2022-08-09
+
+- Add dependabot.yml to automate dependency checks
+- Remove weekly tests
+
 ## 1.0.27 / 2022-03-15
 
 - Updated dependencies

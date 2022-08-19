@@ -1,6 +1,5 @@
 {
-  "devDependencies": {
-    "jasmine": "^4.0.2",
+  "devDe"1.0.29",
     "jasmine-jquery": "^2.1.1",
     "jquery": "^3.6.0",
     "karma": "^6.3.17",
